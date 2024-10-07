@@ -2,7 +2,7 @@ import "../../../tailwind.css";
 import { Navicon } from "../../Icons/Icons";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-const NavHero = () => {
+const Navhero = () => {
   const menuItems = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
@@ -26,4 +26,4 @@ const NavHero = () => {
   );
 };
 
-export default NavHero;
+export default Navhero;
