@@ -1,13 +1,12 @@
 import Aboutsection from "./assets/Components/Aboutsection";
 import Contact from "./assets/Components/Contact/Contact";
-import Ctasection from "./assets/Components/CTA/CTASECTION";
+import Ctasection from "./assets/Components/CTA/Ctasection";
 import Faq from "./assets/Components/FAQ/FAQ";
 import FeatureSection from "./assets/Components/FeatureSection";
 import Footer from "./assets/Components/Footer/Footer";
 import NavHero from "./assets/Components/NavHero/NavHero";
 import PropertiesSection from "./assets/Components/PropertiesSection";
 import TeamSection from "./assets/Components/Team/TeamSection";
-import { Faqques } from "./assets/Icons/Icons";
 import "./tailwind.css";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
       <TeamSection></TeamSection>
       <Contact></Contact>
       <Footer></Footer>
-      
     </>
   );
 }
